@@ -14,7 +14,7 @@
                             </div>
                         @endif
 
-                        You are logged in an Admin!
+                        You are logged in an Admin! <a href="{{route('admin.logout')}}">Logout</a>
                     </div>
                 </div>
             </div>
